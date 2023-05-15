@@ -9,11 +9,12 @@
     <script>
       window.onload = () => {                       navigator.geolocation.getCurrentPosition((position) => {
         document.querySelector('a-text').setAttribute('gps-entity-place', `latitude: ${position.coords.latitude}; longitude: ${position.coords.longitude};`)
-      });
-     }
-      var text=confirm(position.coords.latitude,position.coords.longitude);
+         var text=confirm(position.coords.latitude,position.coords.longitude);
       document.write(text);
       console.log("改1");
+      });
+     }
+     
     </script>
   </head>
 
