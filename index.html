@@ -17,11 +17,10 @@
           scale="1 1 1"
           gltf-model="gltf/koda_duck.gltf"
         ></a-entity>
-		<a-entity
-          position="0 0 0"
-          scale="1 1 1"
-          gltf-model="gltf/lion/lion.gltf"
-        ></a-entity>
+	 <a-assets>
+    		<a-asset-item id="model" src="http://47.109.23.154/upload/Model/lion.gltf.glb"></a-asset-item>
+  	</a-assets>
+	<a-entity gltf-model="#model"></a-entity>
         </a-marker>
 
 		<a-entity camera></a-entity>
