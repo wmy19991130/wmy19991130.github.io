@@ -9,20 +9,20 @@
 	Contact me any time at <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
 </div>
 	<!-- <a-scene embedded arjs='sourceType: image; sourceUrl:../../data/images/armchair.jpg;'> -->
+	<a-scene>
+		<a-assets>
+    			<a-asset-item id="model" src="http://47.109.23.154/upload/Model/lion.gltf.glb"></a-asset-item>
+  		</a-assets>
+	</a-scene>
 	<a-scene embedded arjs='sourceType: webcam;'>
-
-        <a-marker preset="hiro">
-            <a-entity
-          position="-1 -1 -1"
-          scale="1 1 1"
-          gltf-model="gltf/koda_duck.gltf"
-        ></a-entity>
-	 <a-assets>
-    		<a-asset-item id="model" src="http://47.109.23.154/upload/Model/lion.gltf.glb"></a-asset-item>
-  	</a-assets>
-	<a-entity gltf-model="#model"></a-entity>
-        </a-marker>
-
+        	<a-marker preset="hiro">
+            		<a-entity
+          		position="-1 -1 -1"
+          		scale="1 1 1"
+          		gltf-model="gltf/koda_duck.gltf"
+        		></a-entity>
+	 		<a-entity gltf-model="#model"></a-entity>
+        	</a-marker>
 		<a-entity camera></a-entity>
 	</a-scene>
 </body>
