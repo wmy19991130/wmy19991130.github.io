@@ -8,6 +8,11 @@
 	<br/>
 	Contact me any time at <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
 </div>
+	<a-scene>
+  <a-assets>
+    <a-asset-item id="tree" src="https://lantern.oss-cn-chengdu.aliyuncs.com/lion.gltf.glb"></a-asset-item>
+  </a-assets>
+</a-scene>
 	<!-- <a-scene embedded arjs='sourceType: image; sourceUrl:../../data/images/armchair.jpg;'> -->
 	<a-scene embedded arjs='sourceType: webcam;'>
         	<a-marker preset="hiro">
@@ -15,7 +20,7 @@
 			<a-entity
           		position="-0.5 -0.5 -0.5"
           		scale="0.5 0.5 0.5"
-          		gltf-model="gltf/lion/lion.gltf"
+          		gltf-model="#tree"
         		></a-entity>
 	 		
         	</a-marker>
