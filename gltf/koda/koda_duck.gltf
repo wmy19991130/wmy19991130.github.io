@@ -1,0 +1,133 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                1
+            ],
+            "matrix": [
+                0.001,
+                0,
+                0,
+                0,
+                0,
+                0.001,
+                0,
+                0,
+                0,
+                0,
+                0.001,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "koda_duck",
+            "extras": {
+                "Dtk_PrototypeID": 1
+            }
+        },
+        {
+            "mesh": 0,
+            "name": "Mesh"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1
+                    },
+                    "indices": 0,
+                    "mode": 4
+                }
+            ],
+            "extras": {
+                "Dtk_ID": 11817
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 301176,
+            "max": [
+                54621
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 54622,
+            "max": [
+                149.5249023,
+                456.1963196,
+                212.036087
+            ],
+            "min": [
+                -143.2315063,
+                21.99940491,
+                -136.1978302
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 655464,
+            "componentType": 5126,
+            "count": 54622,
+            "max": [
+                0.9999998808,
+                0.9999941587,
+                1
+            ],
+            "min": [
+                -0.9999959469,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 602352,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 602352,
+            "byteLength": 1310928,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1913280,
+            "uri": "koda_duck.bin"
+        }
+    ]
+}
